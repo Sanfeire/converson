@@ -49,13 +49,13 @@ def uno_u_otro(): # confirma si el usuario quiere salir o continuar
         decision = input("Quieres introducir Celsius o Fahrenheit? (c/f):")
 
         if decision == "c":
-                os.system("cls")
+                os.system("clear")
                 print(Fore.GREEN + "OK, Celsius a Fahrenheit")
                 time.sleep(2)
                 main_c()
 
         else:
-            os.system("cls")
+            os.system("clear")
             print(Fore.RED + "OK, Fahrenheit a Celsius")
             time.sleep(2)
             main_f()
@@ -71,7 +71,7 @@ def uno_u_otro(): # confirma si el usuario quiere salir o continuar
 
 
 def main_c(): #función1 principal del programa, para pasar celsius a fah /// (0°C × 9/5) + 32 = 32°F [function]
-        os.system("cls") 
+        os.system("clear") 
         time.sleep(1)
 
         y = float(input("Introduce la temperatura en grados Celsius (ºC):"))
@@ -85,15 +85,15 @@ def main_c(): #función1 principal del programa, para pasar celsius a fah /// (0
         print("La temperatura en ºF es:", total_c)
          
         time.sleep(7)
-        os.system("cls")
+        os.system("clear")
         banner()
         time.sleep(2)
-        os.system("cls")
+        os.system("clear")
         uno_u_otro()
 
 
 def main_f(): #función2 principal del programa, para pasar fah celsius/// (32°F − 32) × 5/9 = 0°C [function]
-        os.system("cls") 
+        os.system("clear") 
         time.sleep(1)
 
         z = float(input("Introduce la temperatura en grados Fahrenheit (ºF):"))
@@ -107,10 +107,10 @@ def main_f(): #función2 principal del programa, para pasar fah celsius/// (32°
         print("La temperatura en ºC es:", total_f)
          
         time.sleep(7)
-        os.system("cls")
+        os.system("clear")
         banner()
         time.sleep(2)
-        os.system("cls")
+        os.system("clear")
         uno_u_otro()
 
 #final F primaria
@@ -124,7 +124,7 @@ def main_f(): #función2 principal del programa, para pasar fah celsius/// (32°
 
 
 
-os.system("cls")
+os.system("clear")
 pantallaInicial()
 time.sleep(1)
 #main_c()
