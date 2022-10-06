@@ -1,2 +1,2 @@
-# converson
+# conversor
 Conversor de fahrenhait a celsius
