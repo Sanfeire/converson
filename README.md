@@ -1,2 +1,2 @@
 # conversor
-Conversor de fahrenhait a celsius
+Un simple y sencillo conversor de fahrenhait a celsius. ;>
